@@ -1,0 +1,97 @@
+body {
+    background-color: #323437 ;
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid #e2b714 2px;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    padding: 20px
+}
+
+footer {
+    text-align: center;
+    border-top: solid #e2b714 2px;
+}
+
+h1, h2 {
+    color: #e2b714;
+    text-align: center;
+}
+
+p {
+    color: #e2b714;
+}
+
+p.footer {
+    color: white;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+b {
+    text-decoration: underline white;
+    font-style: oblique;
+}
+
+td {
+    color: #e2b714;
+    text-align: center;
+    border: solid #e2b714 2px;
+    height: 20px;
+    font-size: large;
+}
+
+.table_container {
+    border: none;
+    text-align: left;
+}
+
+.keyboard_blue {
+    color: aqua;
+    border-color: aqua;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 25%;
+    height: 120px;
+    width: 120px;
+}
+
+.typing_field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.typing {
+    text-decoration: overline;
+    text-transform: capitalize;
+    font-size: 110%;
+}
+
+.keyboard {
+    border: solid #e2b714 2px;
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
